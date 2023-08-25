@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  padding: 40px;
+  background-size: cover;
+}
+
+.app-logo {
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.card-1 {
+  background-color: #5763a5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.sm-image {
+  height: 500px;
+}
+
+.lg-image {
+  display: none;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #454f84;
+  width: 50vw;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.input-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0b69ff;
+  align-self: flex-end;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+.input-images {
+  height: 30px;
+  margin: 10px;
+}
+
+.input-field {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+  border-left-style: solid;
+  border-left-color: #94a3b8;
+  border-left-width: 1px;
+  font-size: 18px;
+  height: 100%;
+  padding: 5px;
+}
+
+.card-2 {
+  background-color: #5763a5;
+  border-radius: 5px;
+  min-height: 500px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.passwords-length-contianer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.no-passwords {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.password-length-heading {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.password-length {
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.input-container-1 {
+  background-color: white;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.horizontal-line {
+  color: white;
+  width: 100%;
+  height: 1px;
+  border-width: 1px;
+}
+
+.show-password {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.checkbox {
+  width: 25px;
+}
+
+.check-box-label {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.no-password-image {
+  height: 300px;
+}
+
+.no-password-label {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.passwords-showing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.each-password {
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  border-radius: 5px;
+  padding: 10px;
+  list-style-type: none;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  min-height: 100px;
+}
+
+.letter-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.brown {
+  background-color: brown;
+}
+.red {
+  background-color: red;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 10px;
+}
+.website {
+  margin: 2px;
+}
+
+.stars {
+  width: 150px;
+  margin: 2px;
+}
+
+.password {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 2px;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.delete {
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .card-1 {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .sm-image {
+    display: none;
+  }
+  .lg-image {
+    display: block;
+    height: 500px;
+    align-self: flex-end;
+  }
+
+  .passwords-showing-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
